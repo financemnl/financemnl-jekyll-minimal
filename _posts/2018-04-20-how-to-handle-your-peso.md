@@ -40,4 +40,4 @@ We can also help you make smarter choices when it comes to buying decisions like
 
 ---
 
-If you're ready, [**let's start**](/wiki/introduction/){: .btn .btn--success}.
+If you're ready, [**let's start**](/wiki/introduction/){: .btn .btn--success}
