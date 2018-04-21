@@ -93,7 +93,6 @@ gulp.task('clean:jekyll', function(callback) {
 // Deletes _site directory and processed assets.
 gulp.task('clean', ['clean:jekyll',
     'clean:images',
-    'clean:scripts',
     'clean:styles']);
 
 // Builds site anew.
