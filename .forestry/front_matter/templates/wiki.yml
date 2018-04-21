@@ -1,0 +1,51 @@
+---
+pages:
+- _wiki/04-employer-sponsored-funds.md
+- _wiki/00-getting-started.md
+- _wiki/09-save-for-other-goals.md
+- _wiki/08-pay-down-low-interest-debt.md
+- _wiki/07-save-for-retirement.md
+- _wiki/06-save-for-large-purchase-or-personal-investment.md
+- _wiki/05-pay-high-interest-debt.md
+- _wiki/03-emergency-fund.md
+- _wiki/02-budgeting.md
+- _wiki/01-introduction.md
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: single
+- name: read_time
+  label: Read time
+  type: boolean
+  hidden: false
+  default: true
+- name: author_profile
+  label: Author profile
+  type: boolean
+  hidden: false
+  default: false
+- name: share
+  label: Share
+  type: boolean
+  hidden: false
+  default: true
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: false
+- name: sidebar
+  label: Sidebar
+  type: field_group
+  fields:
+  - name: nav
+    label: Nav
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 

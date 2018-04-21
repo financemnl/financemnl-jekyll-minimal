@@ -1,0 +1,64 @@
+---
+pages:
+- _posts/2018-04-20-how-to-handle-your-peso.md
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+- type: text
+  name: excerpt
+  label: Description
+  description: Write a short description that describes this article. This will also
+    be shown in Google Searches.
+  config:
+    required: true
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+  description: Date of modification/creation.
+- name: header
+  label: Images
+  type: field_group
+  fields:
+  - type: file
+    name: overlay_image
+    label: Image
+    description: Header Image
+    config:
+      maxSize: '8'
+  hidden: false
+  default: ''
+  description: This is used for images such as OpenGraph Images (FB,Twitter), Header
+    Images, and Teaser Images
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+  description: Keywords
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: toc
+  label: Table Of Contents
+  type: boolean
+  hidden: false
+  default: true
+  description: Enable or Disable Table of Contents.
+- type: text
+  name: layout
+  label: Layout
+  description: Splash, Single or Collections
+  config:
+    required: false
+  default: single
