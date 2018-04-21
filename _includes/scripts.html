@@ -8,6 +8,9 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% else %}
+  <noscript>
+    <link href='/assets/styles/main.css' rel='stylesheet' type='text/css'>
+  </noscript>
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
 {% endif %}

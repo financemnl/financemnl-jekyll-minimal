@@ -21,7 +21,7 @@ title_separator          : "·"
 name                     : "FinanceMNL"
 logo                     : "/assets/images/header.png"
 description              : "FinanceMNL is an independent personal finance site providing free advice for young adults wanting to make informed decisions about where their money goes."
-url                      : "https://financemnl.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      :  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/og.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -145,7 +145,7 @@ author:
 
 # Outputting
 timezone: Asia/Manila # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-permalink: /:categories/:title
+permalink: /:categories/:slug/
 
 # Collections
 collections:
