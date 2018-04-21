@@ -3,11 +3,10 @@
  * Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt)
 */
+@import "minimal-mistakes/skins/mint";
 
 /* Variables */
 @import "minimal-mistakes/variables";
-
-@import "minimal-mistakes/skins/mint"; // skin
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
