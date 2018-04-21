@@ -59,25 +59,6 @@ gulp.task('clean:styles', function(callback) {
     callback();
 });
 
-// Concatenates and uglifies global JS files and outputs result to the
-// appropriate location.
-gulp.task('build:scripts', function() {
-    return gulp.src([
-        paths.jsFiles + '/*.js'
-    ])
-        .pipe(concat('main.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest(paths.jekyllJsFiles))
-        .pipe(gulp.dest(paths.siteJsFiles))
-        .on('error', gutil.log);
-});
-
-// Deletes processed JS.
-gulp.task('clean:scripts', function(callback) {
-    del([paths.jekyllJsFiles + 'main.js', paths.siteJsFiles + 'main.js']);
-    callback();
-});
-
 // Optimizes and copies image files.
 gulp.task('build:images', function() {
     return gulp.src(paths.imageFilesGlob)
@@ -118,7 +99,7 @@ gulp.task('clean', ['clean:jekyll',
 // Builds site anew.
 gulp.task('build', function(callback) {
     runSequence('clean',
-        ['build:scripts', 'build:images', 'build:styles'],
+        ['build:images', 'build:styles'],
         'build:jekyll',
         callback);
 });
@@ -141,11 +122,6 @@ gulp.task('build:jekyll:watch', ['build:jekyll:local'], function(callback) {
     callback();
 });
 
-gulp.task('build:scripts:watch', ['build:scripts'], function(callback) {
-    browserSync.reload();
-    callback();
-});
-
 // Static Server + watching files.
 // Note: passing anything besides hard-coded literal paths with globs doesn't
 // seem to work with gulp.watch().
@@ -164,9 +140,6 @@ gulp.task('serve', ['build:jekyll:local'], function() {
 
     // Watch .scss files; changes are piped to browserSync.
     gulp.watch('_assets/styles/**/*.scss', ['build:styles']);
-
-    // Watch .js files.
-    gulp.watch('_assets/js/**/*.js', ['build:scripts:watch']);
 
     // Watch image files; changes are piped to browserSync.
     gulp.watch('_assets/images/**/*', ['build:images']);
