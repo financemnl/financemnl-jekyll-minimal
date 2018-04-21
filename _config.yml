@@ -84,9 +84,7 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Pagination
-pagination:
-  enabled: true
-  per_page: 5
+paginate: 5
 
 # Social Sharing
 twitter:
@@ -147,6 +145,7 @@ author:
 
 # Outputting
 timezone: Asia/Manila # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink: /:categories/:title
 
 # Collections
 collections:
@@ -254,7 +253,7 @@ sass:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-algolia
