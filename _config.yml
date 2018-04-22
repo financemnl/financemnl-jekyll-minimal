@@ -25,7 +25,7 @@ url                      : "https://financemnl.com" # the base hostname & protoc
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/og.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 180
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -145,7 +145,7 @@ author:
 
 # Outputting
 timezone: Asia/Manila # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-permalink: /:categories/:title
+permalink: /:title
 
 # Collections
 collections:
