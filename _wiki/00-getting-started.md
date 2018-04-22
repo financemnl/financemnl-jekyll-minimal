@@ -4,10 +4,6 @@ excerpt: FinanceMNL has everything you need to know about money, written by real
   who’ve been there. Regardless of what brought you here, you’re in the right place.
   And you’re not alone.
 permalink: "/wiki/getting-started/"
-redirect_from:
-- "/start-here/"
-- "/start/"
-- "/wiki/"
 header:
   overlay_image: "/assets/images/uploads/header/yellow-wall.jpg"
   show_overlay_excerpt: false

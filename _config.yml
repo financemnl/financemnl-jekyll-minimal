@@ -214,6 +214,7 @@ include:
   - .htaccess
   - _pages
   - _headers
+  - _redirects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -252,7 +253,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-algolia
-  - jekyll-redirect-from
   - jekyll-archives
 
 # mimic GitHub Pages with --safe

@@ -2,8 +2,6 @@
 layout: archive
 title: Sitemap
 permalink: /sitemap/
-redirect_from:
-  - /sitemap.html/
 author_profile: false
 ---
 
