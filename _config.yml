@@ -170,9 +170,6 @@ defaults:
       share: true
       related: true
       read_time: true
-      breadcrumbs:
-        - label: "Posts"
-          url: /posts/
 
   # _wiki
   - scope:
