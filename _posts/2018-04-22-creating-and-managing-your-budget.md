@@ -109,7 +109,8 @@ Your goals and cuts should be **SMART**:
 * **R**ealistic - Cutting your restaurant budget by 100% probably isn't achievable in one month. **Gradually changing a bad habit is the best way to achieve long-term success.**
 * **T**ime-bound - Hold yourself accountable by setting a deadline. Goals with nebulous time frames you can adjust at will don't help you.
 
-**Tip**: some ways to reduce spending are to cut cable, reduce cell phone plans to a data/minute level you actually use, cook at home/bring lunch to work, de-link credit cards from online shopping sites, reduce use of your credit card & substitute cash, turn off lights when not in use, etc. {: .notice--info}
+**Tip**: some ways to reduce spending are to cut cable, reduce cell phone plans to a data/minute level you actually use, cook at home/bring lunch to work, de-link credit cards from online shopping sites, reduce use of your credit card & substitute cash, turn off lights when not in use, etc. 
+{: .notice--info}
 
 ---
 
