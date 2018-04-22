@@ -59,21 +59,6 @@ gulp.task('clean:styles', function(callback) {
     callback();
 });
 
-// Optimizes and copies image files.
-gulp.task('build:images', function() {
-    return gulp.src(paths.imageFilesGlob)
-        .pipe(imagemin())
-        .pipe(gulp.dest(paths.jekyllImageFiles))
-        .pipe(gulp.dest(paths.siteImageFiles))
-        .pipe(browserSync.stream());
-});
-
-// Deletes processed images.
-gulp.task('clean:images', function(callback) {
-    del([paths.jekyllImageFiles, paths.siteImageFiles]);
-    callback();
-});
-
 // Runs jekyll build command.
 gulp.task('build:jekyll', function() {
     var shellCommand = 'bundle exec jekyll build --config _config.yml';
@@ -92,13 +77,12 @@ gulp.task('clean:jekyll', function(callback) {
 // Main clean task.
 // Deletes _site directory and processed assets.
 gulp.task('clean', ['clean:jekyll',
-    'clean:images',
     'clean:styles']);
 
 // Builds site anew.
 gulp.task('build', function(callback) {
     runSequence('clean',
-        ['build:images', 'build:styles'],
+        ['build:styles'],
         'build:jekyll',
         callback);
 });
@@ -124,7 +108,7 @@ gulp.task('build:jekyll:watch', ['build:styles','build:jekyll:local'], function(
 // Static Server + watching files.
 // Note: passing anything besides hard-coded literal paths with globs doesn't
 // seem to work with gulp.watch().
-gulp.task('serve', ['build:styles','build:images','build:jekyll:local'], function() {
+gulp.task('serve', ['build:styles','build:jekyll:local'], function() {
 
     browserSync.init({
         server: paths.siteDir,
@@ -139,10 +123,7 @@ gulp.task('serve', ['build:styles','build:images','build:jekyll:local'], functio
 
     // Watch .scss files; changes are piped to browserSync.
     gulp.watch('_assets/styles/**/*.scss', ['build:styles']);
-
-    // Watch image files; changes are piped to browserSync.
-    gulp.watch('_assets/images/**/*', ['build:images']);
-
+    
     // Watch posts.
     gulp.watch('_posts/**/*.+(md|markdown|MD)', ['build:jekyll:watch']);
 
