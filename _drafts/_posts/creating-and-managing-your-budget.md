@@ -19,12 +19,14 @@ tags:
 - guide
 - budget
 - reduce expense
+- budgeting tools
+- envelope system
 categories:
 - Budgeting
 ---
 Budgeting should be the cornerstone of your personal finance.
 
-You should focus on tracking all of your expenses for the month, using a method of your choice listed below in the Tools/Systems section.
+You should focus on tracking all of your expenses for the month, using a method of your choice listed below in the [Tools/Systems](#toolssystems) section.
 
 ## **Creating a Budget**
 
