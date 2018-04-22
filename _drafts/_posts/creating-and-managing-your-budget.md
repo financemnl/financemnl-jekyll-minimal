@@ -89,3 +89,24 @@ Figure out a tool/system that works for you. There's a list below.
 Once you have your budget in place, using the envelope system can be a good way to stick to your budget. Decide what spending categories you want to try to control using the envelope system. Typically any area where you overspend is a good one to use. For many people this might be food, clothing, and entertainment. For each of those categories go to the bank or ATM and withdraw your budgeted amount in cash. Take an envelope and write the name of the category on the front of the envelope and put the money inside. From then on, whenever you spend money in this category it must come from that envelope. If you don't use the money for that month leave it in there and add your budgeted amount again next month. If you are consistently not spending the money maybe you want to adjust your budget. Some things you just don't buy every month though. People tend to buy clothes seasonally, for example.
 
 The advantage of the envelope system is it makes you stop and think. If you're at the store and want to buy something, you look in the envelope. If the envelope is empty you know that buying that item would put you over budget. If you're half way through the month and have spent more than half your food money it may not be a good idea to go out to eat that night. Is that toy really worth half of your entertainment budget for the month? It can also help those that have a hard time _spending_ money. If you open the food envelope and there is more than enough money for the rest of the month, you can feel better about going out with your friends.
+
+## **Cutting your Spending Meaningfully**
+
+Once you have begun to track all of your expenses carefully, you will begin to notice where to make appropriate cuts, good places to shift your resources, and other goals you might want to make. _You_ get to decide what is meaningful.
+
+Benjamin Franklin once said,
+
+> A penny saved is a penny earned.
+
+If this is true, then a budget cut is the same thing as increasing your income.
+
+Your goals and cuts should be **SMART**:
+
+* **S**pecific - Ensure you are stating _specific_ goals. Example: "I will cut my restaurant budget by 25% this month."
+* **M**easurable - You need to have a way to measure if you succeeded or failed. With money, this is usually pretty easy. The example above is _measurable_; if you spent Php 4,000 on restaurants this month, you've succeeded if you spend Php 3,000 or less next month.
+* **A**ssignable - Usually this is assigned to you, but can be for anyone (especially if you have a family).
+* **R**ealistic - Cutting your restaurant budget by 100% probably isn't achievable in one month. **Gradually changing a bad habit is the best way to achieve long-term success.**
+* **T**ime-bound - Hold yourself accountable by setting a deadline. Goals with nebulous time frames you can adjust at will don't help you.
+
+**Tip** often-cited ways to reduce spending are to cut cable, reduce cell phone plans to a data/minute level you actually use, cook at home/bring lunch to work, de-link credit cards from online shopping sites, reduce use of your credit card & substitute cash, turn off lights when not in use, etc.
+{: .notice--info}
