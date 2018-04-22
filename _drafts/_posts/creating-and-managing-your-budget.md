@@ -14,7 +14,7 @@ date: 2018-04-22 00:00:00 +0000
 excerpt: Budgeting should be the cornerstone of personal finance. This article should
   teach you how to create a budget and how to manage it.
 header:
-  overlay_image: "/assets/images/uploads/header/construction-site-build-construction-work-159306.jpeg"
+  overlay_image: "/assets/images/uploads/header/pexels-photo-972540.jpeg"
 tags:
 - guide
 - budget
@@ -80,7 +80,7 @@ Figure out a tool/system that works for you. There's a list below.
 ### Software
 
 * [YNAB](https://ynab.com/referral/?ref=_YeVA4iWCdYA-ErN&utm_source=customer_referral) is our usual recommendation here. Stay tuned because we're going to share what our budget looks like using this comprehensive app.  Here are some notes on pricing:
-  * Currently a subscription service at $7/month (or $83.99/yr)
+  * Currently a subscription service at $7/month or Php 365/month
   * There is a 34 day free trial.
 * [Budgetwise](http://www.budgetwise.io/) is an alternative for YNAB. This is still in development but we are closely watching it and will be announcing it here.
 * [Monefy](http://www.monefy.me/) Android and iOS app to budget and keep track of expenses. Also resembles the Envelope Method which will be discussed below.
