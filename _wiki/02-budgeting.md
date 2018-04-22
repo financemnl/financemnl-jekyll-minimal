@@ -7,6 +7,10 @@ toc: true
 header:
   overlay_image: "/assets/images/uploads/header/pexels-photo-532557.jpeg"
 date: 2018-04-20 15:50:35 +0000
+tags:
+  - budgeting
+  - reduce expense
+  - minimize expense
 ---
 
 ## Step 0: Budget, reduce expenses
