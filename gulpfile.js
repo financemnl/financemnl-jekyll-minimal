@@ -116,7 +116,7 @@ gulp.task('build:jekyll:local', function() {
 });
 
 // Special tasks for building and then reloading BrowserSync.
-gulp.task('build:jekyll:watch', ['build:jekyll:local'], function(callback) {
+gulp.task('build:jekyll:watch', ['build:styles','build:jekyll:local'], function(callback) {
     browserSync.reload();
     callback();
 });
@@ -124,7 +124,7 @@ gulp.task('build:jekyll:watch', ['build:jekyll:local'], function(callback) {
 // Static Server + watching files.
 // Note: passing anything besides hard-coded literal paths with globs doesn't
 // seem to work with gulp.watch().
-gulp.task('serve', ['build:jekyll:local'], function() {
+gulp.task('serve', ['build:styles','build:images','build:jekyll:local'], function() {
 
     browserSync.init({
         server: paths.siteDir,
