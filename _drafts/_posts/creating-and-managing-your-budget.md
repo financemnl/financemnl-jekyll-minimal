@@ -79,7 +79,7 @@ Figure out a tool/system that works for you. There's a list below.
 
 ### Software
 
-* [YNAB](https://ynab.com/referral/?ref=_YeVA4iWCdYA-ErN&utm_source=customer_referral) is our usual recommendation here. Stay tuned because we're going to share what our budget looks like using this comprehensive app.  Here are some notes on pricing:
+* [YNAB](https://ynab.com/referral/?ref=_YeVA4iWCdYA-ErN&utm_source=customer_referral "YNAB") is our usual recommendation here. Stay tuned because we're going to share what our budget looks like using this comprehensive app.  Here are some notes on pricing:
   * Currently a subscription service at $7/month or Php 365/month
   * There is a 34 day free trial.
 * [Budgetwise](http://www.budgetwise.io/) is an alternative for YNAB. This is still in development but we are closely watching it and will be announcing it here.
