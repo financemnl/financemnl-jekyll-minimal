@@ -7,15 +7,17 @@ toc: true
 header:
   overlay_image: "/assets/images/uploads/header/pexels-photo-532557.jpeg"
 date: 2018-04-20 15:50:35 +0000
-tags:
-  - budgeting
-  - reduce expense
-  - minimize expense
+layout: single
+read_time: false
+author_profile: false
+share: false
+comments: false
+sidebar:
+  nav: ''
 ---
-
 ## Step 0: Budget, reduce expenses
 
-A fundamental of healthy personal finance is [budgeting](<>). The first step should then be to create a budget.
+A fundamental of healthy personal finance is [budgeting](/budgeting/). The first step should then be to [create a budget](/budgeting/creating-and-managing-your-budget).
 
 This will help identify areas where expenses can be reduced in order to have leftover money for the next steps.
 
