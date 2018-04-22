@@ -75,7 +75,7 @@ You should focus on tracking all of your expenses for the month, using a method 
 
 Figure out a tool/system that works for you. There's a list below.
 
-### Commercial Software
+### Software
 
 * [YNAB](https://ynab.com/referral/?ref=_YeVA4iWCdYA-ErN&utm_source=customer_referral) is our usual recommendation here. Stay tuned because we're going to share what our budget looks like using this comprehensive app.  Here are some notes on pricing:
   * Currently a subscription service at $7/month (or $83.99/yr)
@@ -83,6 +83,8 @@ Figure out a tool/system that works for you. There's a list below.
 * [Budgetwise](http://www.budgetwise.io/) is an alternative for YNAB. This is still in development but we are closely watching it and will be announcing it here.
 * [Monefy](http://www.monefy.me/) Android and iOS app to budget and keep track of expenses. Also resembles the Envelope Method which will be discussed below.
 * [Money Lover](https://moneylover.me/) Same as Monefy. If you prefer a cleaner UI. This is also a cheap alternative for YNAB.
+
+### Spreadsheets. Because who doesn't love them? (us)
 
 ### **The Envelope System**
 
@@ -110,3 +112,7 @@ Your goals and cuts should be **SMART**:
 
 **Tip** often-cited ways to reduce spending are to cut cable, reduce cell phone plans to a data/minute level you actually use, cook at home/bring lunch to work, de-link credit cards from online shopping sites, reduce use of your credit card & substitute cash, turn off lights when not in use, etc.
 {: .notice--info}
+
+---
+
+If you're interested to learn more about budgeting, be sure to follow our Twitter and Facebook page for updates.
