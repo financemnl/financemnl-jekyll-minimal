@@ -8,7 +8,7 @@ related: true
 breadcrumbs:
 - label: Posts
   url: "/posts/"
-title: Creating and Managing your Budget.
+title: Creating and Managing your Budget
 toc: true
 date: 2018-04-22 00:00:00 +0000
 excerpt: Budgeting should be the cornerstone of personal finance. This article should
