@@ -30,7 +30,7 @@ var urlsToCache = [];
 // Cache assets
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
-    {% if file.extname == '.js' or file.path contains '/assets/images' %}
+    {% if file.extname == '.js' %}
     urlsToCache.push("{{ file.path }}")
     {% endif %}
 {% endfor %}
