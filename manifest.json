@@ -1,6 +1,6 @@
 {
-    "name": "James Ives | Full-Stack Developer",
-    "short_name": "James Ives",
+    "name": "FinanceMNL | A Filipino Millenial's Approach on Personal Finance.",
+    "short_name": "FinanceMNL",
     "theme_color": "#5BCE9C",
     "background_color": "#fff",
     "display": "browser",
@@ -9,12 +9,12 @@
     "icons": [
       {
         "src": "https://financemnl.com/assets/images/favicon-16x16.png",
-        "sizes": "72x72",
+        "sizes": "16x16",
         "type": "image/png"
       },
       {
         "src": "https://financemnl.com/assets/images/favicon-32x32.png",
-        "sizes": "96x96",
+        "sizes": "32x32",
         "type": "image/png"
       }
     ],
