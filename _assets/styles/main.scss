@@ -1,19 +1,1 @@
-/* Variables */
-@import "minimal-mistakes/variables";
-@import "minimal-mistakes/vendor/breakpoint/breakpoint";
-@include breakpoint-set("to ems", true);
-@import "minimal-mistakes/mixins";
-@import "minimal-mistakes/buttons";
 @import "minimal-mistakes/skins/mint";
-
-/* Components */
-@import "minimal-mistakes/tables";
-@import "minimal-mistakes/notices";
-@import "minimal-mistakes/forms";
-@import "minimal-mistakes/search";
-@import "minimal-mistakes/syntax";
-@import "minimal-mistakes/footer";
-@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
-
-/* Layout specific */
-@import "minimal-mistakes/print";
