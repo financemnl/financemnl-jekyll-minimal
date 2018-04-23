@@ -5,7 +5,6 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Cache-Control: public, max-age=31536000
 /
-  #Link: <assets/styles/main.css>; rel=preload; as=stylesheet
   Link: <assets/js/main.js>; rel=preload; as=script
   Link: <assets/images/header.png>; rel=preload; as=image
   Link: <assets/images/avatar.png>; rel=preload; as=image
