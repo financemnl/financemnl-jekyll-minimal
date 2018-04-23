@@ -3,7 +3,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <!-- <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a> -->
-        <a class="site-title" href="{{ '/' | relative_url }}"><img src="{{ site.logo }}" width="250" height="150" title="{{ site.title }}" alt="{{ site.title }}"></a>
+        <a class="site-title" href="{{ '/' | relative_url }}"><img src="{{ site.logo }}?v={{site.version}}" width="250" height="150" title="{{ site.title }}" alt="{{ site.title }}"></a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
