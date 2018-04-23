@@ -1,7 +1,6 @@
 # Redirects from what the browser requests to what we serve
 /home                                /
 /post                                /
-/posts                               /
 /sitemap.html                        /sitemap
 /tag                                 /tags
 /category                            /categories
