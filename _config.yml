@@ -174,7 +174,7 @@ defaults:
         - label: "FinancMNL Wiki"
           url: /wiki/
 
-# Simple bust caching
+# Simple bust caching, change each time you update an existing asset.
 version : 100
 
 # Archives
