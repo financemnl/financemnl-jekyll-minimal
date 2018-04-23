@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+
 // Cache name: adjust version number to invalidate service worker cachce.
 var CACHE_NAME = 'financemnl-v2';
 var urlsToCache = [];
@@ -30,7 +31,7 @@ var urlsToCache = [];
 // Cache assets
 // Removed assets/posts because I only want assets from the most recent posts getting cached
 {% for file in site.static_files %}
-    {% if file.extname == '.js' %}
+    {% if file.extname == '.js'%}
     urlsToCache.push("{{ file.path }}")
     {% endif %}
 {% endfor %}
