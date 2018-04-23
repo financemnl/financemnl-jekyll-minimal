@@ -2,39 +2,8 @@
 layout: null
 ---
 
-// Cache name: adjust version number to invalidate service worker cachce.
 var CACHE_NAME = 'financemnl-v2';
 var urlsToCache = [];
-
-// Cache posts
-// Limits the number of posts that gets cached to 3
-// Reads a piece of front-matter in each post that directs the second loop to the folder where the assets are held
-{% for post in site.posts limit:3 %}
-  urlsToCache.push("{{ post.url }}")
-  {% for file in site.static_files %}
-    {% if file.path contains post.assets %}
-      urlsToCache.push("{{ file.path }}")
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-
-// Cache pages
-// Do nothing if it's either an AMP page (as these are served via Googles cache) or the blog page
-// Fallback to the offline pages for these
-{% for page in site.html_pages %}
-  {% if page.path contains 'amp-html' or page.path contains 'tags' %}
-  {% else if %}
-    urlsToCache.push("{{ page.url }}")
-  {% endif %}
-{% endfor %}
-
-// Cache assets
-// Removed assets/posts because I only want assets from the most recent posts getting cached
-{% for file in site.static_files %}
-    {% if file.extname == '.js'%}
-    urlsToCache.push("{{ file.path }}")
-    {% endif %}
-{% endfor %}
 
 self.addEventListener('install', function(event) {
   // Perform install steps
@@ -57,3 +26,20 @@ self.addEventListener('fetch', function(event) {
     });
   );
 });
+
+// Cache assets
+{% for asset in site.static_files %}
+    {% if asset.path contains '/assets/images' or asset.path contains '/assets/posts' or asset.extname == '.js' %}
+    urlsToCache.push("{{ file.path }}")
+    {% endif %}
+{% endfor %}
+
+// Cache posts
+{% for post in site.posts %}
+  urlsToCache.push("{{ post.url }}")
+{% endfor %}
+
+// Cache pages
+{% for page in site.html_pages %}
+  urlsToCache.push("{{ page.url }}")
+{% endfor %}
