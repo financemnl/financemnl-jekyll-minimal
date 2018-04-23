@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "FinanceMNL"
-  avatar           : "/assets/images/avatar.png?v={{site.version}}" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A Filipino Millennial's Approach on Personal Finance."
   location         :
   email            :
@@ -174,9 +174,6 @@ defaults:
         - label: "FinancMNL Wiki"
           url: /wiki/
 
-# Simple bust caching, change each time you update an existing asset.
-version : 100
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -229,7 +226,6 @@ include:
   - _pages
   - _headers
   - _redirects
-  - sw.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

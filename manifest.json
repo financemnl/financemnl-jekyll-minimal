@@ -1,0 +1,22 @@
+{
+    "name": "James Ives | Full-Stack Developer",
+    "short_name": "James Ives",
+    "theme_color": "#5BCE9C",
+    "background_color": "#fff",
+    "display": "browser",
+    "Scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "https://financemnl.com/assets/images/favicon-16x16.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "https://financemnl.com/assets/images/favicon-32x32.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null
+  }

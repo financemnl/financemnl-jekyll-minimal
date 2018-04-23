@@ -16,9 +16,9 @@
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
-            "{{ teaser }}?v={{site.version}}"
+            "{{ teaser }}"
           {% else %}
-            "{{ teaser | relative_url }}?v={{site.version}}"
+            "{{ teaser | relative_url }}"
           {% endif %}
           alt="">
       </div>
