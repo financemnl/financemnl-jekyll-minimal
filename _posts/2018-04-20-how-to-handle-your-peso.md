@@ -11,6 +11,8 @@ categories:
 excerpt_separator: "<!--more-->"
 date: 2018-04-20 00:00:00 +0000
 comments: false
+header:
+  teaser: "/assets/images/uploads/teaser/money-card-business-credit-card-50987.jpeg"
 ---
 
 # Welcome to FinanceMNL!
