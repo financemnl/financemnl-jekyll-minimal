@@ -4,8 +4,8 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Link: <assets/js/main.js>; rel=preload; as=script,
-  <assets/css/main.css>; rel=preload; as=style,
-  <assets/images/header.png>; rel=preload; as=image,
-  <assets/images/avatar.png>; rel=preload; as=image
+  Link: <assets/css/main.css>; rel=preload; as=style,
+  Link: <assets/images/header.png>; rel=preload; as=image,
+  Link: <assets/images/avatar.png>; rel=preload; as=image
 /assets/images/*
   Cache-Control: public, max-age=360000
