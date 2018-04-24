@@ -21,7 +21,10 @@
   {{ criticalcss | scssify }}
 </style>
 
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" as="style" href="/assets/css/main.css" onload="this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</noscript>
 
 <!--[if lte IE 9]>
   <style>
