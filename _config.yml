@@ -280,9 +280,6 @@ pwa:
   precache_glob_ignores: # Optional
     - sw-register.js
     - "fonts/**/*"
-  runtime_cache: # Optional
-    - route: "'/assets/images/uploads/header/*.{jpeg,jpg,png}'"
-      strategy: cacheFirst
 
 # Sass/SCSS
 sass:
