@@ -21,7 +21,7 @@
   {{ criticalcss | scssify }}
 </style>
 
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" type="text/css" media="all"/>
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
 
 <!--[if lte IE 9]>
   <style>
