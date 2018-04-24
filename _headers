@@ -8,5 +8,3 @@
   Link: <css/main.css>; rel=preload; as=style
   Link: <images/header.png>; rel=preload; as=image
   Link: <images/avatar.png>; rel=preload; as=image
-/assets/*
-  Cache-Control: public, max-age=360000
