@@ -15,7 +15,7 @@
   height: auto;
   /* sticky footer fix end */
   margin-top: 3em;
-  color: $footer-color;
+  color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
@@ -36,7 +36,7 @@
   }
 
   a {
-    color: inherit;
+    color: $muted-text-color;
     text-decoration: none;
 
     &:hover {
@@ -55,6 +55,7 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  color: $muted-text-color;
 }
 
 .page__footer-follow {
@@ -62,6 +63,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    color: $muted-text-color
   }
 
   li {
@@ -70,6 +72,7 @@
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
+    color: $muted-text-color;
     text-transform: uppercase;
   }
 
