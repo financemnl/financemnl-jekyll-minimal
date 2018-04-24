@@ -4,10 +4,10 @@
 
 /* Colors */
 $background-color: #FFFFFF !default;
-$text-color: #40514e !default;
-$muted-text-color: #40514e !default;
+$text-color: hsla(200,0%,0%,.7) !default;
+$muted-text-color: hsla(200,0%,0%,.7) !default;
 $primary-color: #5BCE9C !default;
-$border-color: mix(#fff, #40514e, 75%) !default;
+$border-color: mix(#fff, hsla(200,0%,0%,.7), 75%) !default;
 $footer-background-color: #5BCE9C !default;
 $link-color: #3A96D2 !default;
 $masthead-link-color: $text-color !default;
