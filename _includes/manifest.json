@@ -1,0 +1,13 @@
+{
+    "name": "FinanceMNL",
+    "short_name": "FinanceMNL",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "description": "A Filipino Millennial's Approach on Personal Finance.",
+    "icons": [{
+      "src": "/assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }]
+  }
