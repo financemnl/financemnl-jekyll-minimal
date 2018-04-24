@@ -277,12 +277,12 @@ pwa:
   precache_glob_patterns: # Optional
     - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
     - index.html
-    - "assets/images/*.{png,jpg}"
+    - "assets/images/header.png"
   precache_glob_ignores: # Optional
     - sw-register.js
     - "fonts/**/*"
   runtime_cache: # Optional
-    - route: "assets/images/uploads/header/*.{jpeg,jpg,png}"
+    - route: "'assets/images/uploads/header/*.{jpeg,jpg,png}'"
       strategy: cacheFirst
 
 # Sass/SCSS
