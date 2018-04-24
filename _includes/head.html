@@ -21,6 +21,8 @@
   {{ criticalcss | scssify }}
 </style>
 
+<link rel="preload" as="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"/>
+
 <!--[if lte IE 9]>
   <style>
     /* old IE unsupported flexbox fixes */
