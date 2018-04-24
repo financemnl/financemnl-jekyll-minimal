@@ -4,10 +4,44 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Cache-Control: public, max-age=31536000
-/assets/
-  Link: <js/main.js>; rel=preload; as=script
-  Link: <css/main.css>; rel=preload; as=style
-  Link: <images/header.png>; rel=preload; as=image
-  Link: <images/avatar.png>; rel=preload; as=image
-/assets/images/uploads/*
-  Cache-Control: public, max-age=360000
+/
+  Link: <assets/js/main.js>; rel=preload; as=script
+  Link: <assets/css/main.css>; rel=preload; as=style
+  Link: <assets/images/header.png>; rel=preload; as=image
+  Link: <assets/images/avatar.png>; rel=preload; as=image
+/tags/
+  Link: <assets/js/main.js>; rel=preload; as=script
+  Link: <assets/css/main.css>; rel=preload; as=style
+  Link: <assets/images/header.png>; rel=preload; as=image
+  Link: <assets/images/avatar.png>; rel=preload; as=image
+/categories/
+  Link: <assets/js/main.js>; rel=preload; as=script
+  Link: <assets/css/main.css>; rel=preload; as=style
+  Link: <assets/images/header.png>; rel=preload; as=image
+  Link: <assets/images/avatar.png>; rel=preload; as=image
+/general/
+  Link: <assets/js/main.js>; rel=preload; as=script
+  Link: <assets/css/main.css>; rel=preload; as=style
+  Link: <assets/images/header.png>; rel=preload; as=image
+  Link: <assets/images/avatar.png>; rel=preload; as=image
+/budgeting/
+  Link: <assets/js/main.js>; rel=preload; as=script
+  Link: <assets/css/main.css>; rel=preload; as=style
+  Link: <assets/images/header.png>; rel=preload; as=image
+  Link: <assets/images/avatar.png>; rel=preload; as=image
+/about/
+  Link: <assets/js/main.js>; rel=preload; as=script
+  Link: <assets/css/main.css>; rel=preload; as=style
+  Link: <assets/images/header.png>; rel=preload; as=image
+  Link: <assets/images/avatar.png>; rel=preload; as=image
+/sitemap/
+  Link: <assets/js/main.js>; rel=preload; as=script
+  Link: <assets/css/main.css>; rel=preload; as=style
+  Link: <assets/images/header.png>; rel=preload; as=image
+  Link: <assets/images/avatar.png>; rel=preload; as=image
+/*.jpg
+  Cache-Control: max-age=31536000, public
+/*.css
+  Cache-Control: max-age=31536000, public
+/*.js
+  Cache-Control: max-age=31536000, public
