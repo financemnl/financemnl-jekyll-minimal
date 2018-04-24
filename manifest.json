@@ -3,7 +3,7 @@
     "short_name": "FinanceMNL",
     "theme_color": "#5BCE9C",
     "background_color": "#FFF",
-    "display": "browser",
+    "display": "fullscreen",
     "Scope": "/",
     "start_url": "/",
     "icons": [
@@ -41,6 +41,11 @@
         "src": "https://financemnl.com/assets/images/safari-pinned-tab.svg",
         "sizes": "400x400",
         "type": "image/svg"
+      },
+      {
+        "src": "https://financemnl.com/assets/images/FinanceMNL500x500.png",
+        "sizes": "512x512",
+        "type": "image/png"
       }
     ],
     "splash_pages": null
