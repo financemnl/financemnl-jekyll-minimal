@@ -1,6 +1,5 @@
-@import "minimal-mistakes/skins/mint";
-
 /* Variables */
+@import "minimal-mistakes/skins/mint";
 @import "minimal-mistakes/variables";
 
 /* Mixins and functions */
@@ -19,12 +18,8 @@
 
 /* Components */
 @import "minimal-mistakes/masthead";
-@import "minimal-mistakes/buttons";
 @import "minimal-mistakes/navigation";
-@import "minimal-mistakes/search";
 
 /* Layout */
-@import "minimal-mistakes/page";
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
-@import "minimal-mistakes/footer";
