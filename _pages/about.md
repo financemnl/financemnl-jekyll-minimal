@@ -5,7 +5,7 @@ author_profile: false
 excerpt: Founded in 2018, FinanceMNL is an independent personal finance site providing
   free advice for young adults wanting to make informed decisions about where their
   money goes.
-permalink: "/about/"
+permalink: "/about"
 ---
 
 Founded in 2018, FinanceMNL is an independent personal finance site providing free advice for young adults wanting to make informed decisions about where their money goes. The site engages in finance topics influenced by various personal finance books authored by the likes of John Bogle, Dave Ramsey, Ramit Sethi, and Warren Buffet.
