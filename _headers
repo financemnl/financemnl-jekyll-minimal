@@ -3,9 +3,10 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Link: <main.js>; rel=preload; as=script
-  Link: <main.css>; rel=preload; as=style
-  Link: <header.png>; rel=preload; as=image
-  Link: <avatar.png>; rel=preload; as=image
-/assets/images/*
+/assets/
+  Link: <js/main.js>; rel=preload; as=script
+  Link: <css/main.css>; rel=preload; as=style
+  Link: <images/header.png>; rel=preload; as=image
+  Link: <images/avatar.png>; rel=preload; as=image
+/assets/*
   Cache-Control: public, max-age=360000
