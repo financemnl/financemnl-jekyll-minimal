@@ -8,7 +8,7 @@ name                     : "FinanceMNL"
 logo                     : "/assets/images/header.png"
 description              : "FinanceMNL is an independent personal finance site providing free advice for young adults wanting to make informed decisions about where their money goes."
 url                      : "https://financemnl.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  :  # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/og.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
@@ -265,6 +265,25 @@ plugins:
   - jekyll-feed
   - jekyll-algolia
   - jekyll-archives
+  - jekyll-pwa-plugin
+
+# PWA
+pwa:
+  sw_filename: service-worker.js # Required
+  dest_js_directory: assets/js # Required
+  cache_name: financemnl-cache # Optional
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+    - "assets/images/*.{png,jpg}"
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
+  runtime_cache: # Optional
+    - route: "assets/images/uploads/header/*.{jpeg,jpg,png}"
+      strategy: cacheFirst
 
 # Sass/SCSS
 sass:
