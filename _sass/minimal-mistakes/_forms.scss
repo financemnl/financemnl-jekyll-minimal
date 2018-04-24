@@ -389,5 +389,5 @@ select:focus {
 }
 
 #goog-wm-sb {
-  @extend .btn;
+  @extend .btn !optional;
 }

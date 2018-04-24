@@ -14,9 +14,11 @@
 
 <!-- For all browsers -->
 <!-- CSS -->
-<!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
 <style type="text/css">
-    {% include critical.css %}
+  {% capture criticalcss %}
+    {% include critical.scss %}
+  {% endcapture %}
+  {{ criticalcss | scssify }}
 </style>
 
 <!--[if lte IE 9]>
