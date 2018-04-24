@@ -1,8 +1,8 @@
 @import "minimal-mistakes/variables";
+@import "minimal-mistakes/skins/mint";
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
 @import "minimal-mistakes/mixins";
-@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
 
 /* Core CSS */
 @import "minimal-mistakes/forms";
@@ -15,6 +15,7 @@
 @import "minimal-mistakes/buttons";
 @import "minimal-mistakes/footer";
 @import "minimal-mistakes/page";
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
 
 /* Layout specific */
 @import "minimal-mistakes/print";
