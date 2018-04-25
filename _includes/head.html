@@ -9,40 +9,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
-  {% include loadCSS.js %}
-</script>
-
-<script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- For all browsers -->
-<!-- CSS -->
-<!-- <style type="text/css">
-  {% capture criticalcss %}
-    {% include critical.scss %}
-  {% endcapture %}
-  {{ criticalcss | scssify }}
-</style> -->
-
+<script>
+    {% include loadCSS.js %}
+</script>
+  
 <link rel="preload" href="/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/assets/css/main.css"/></noscript>
-
-
-<!--[if lte IE 9]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
