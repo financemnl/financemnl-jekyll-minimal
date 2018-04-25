@@ -4,5 +4,3 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: origin-when-cross-origin
   Content-Security-Policy-Report-Only: default-src https: 'unsafe-inline' 'unsafe-eval'
-/
-  Link: <assets/css/main.css>; rel=preload; as=style
