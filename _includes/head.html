@@ -12,13 +12,13 @@
     {% include loadCSS.js %}
 </script>
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
 <style type="text/css">
   {% include critical.css %}
 </style>
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
