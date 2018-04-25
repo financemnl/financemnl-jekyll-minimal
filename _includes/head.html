@@ -12,12 +12,12 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<style type="text/css">
+<!-- <style type="text/css">
   {% include critical.css %}
-</style>
+</style> -->
   
-<link rel="preload" href="/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="/assets/css/main.css"/></noscript>
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"/></noscript>
 <script>
     {% include loadCSS.js %}
 </script>
