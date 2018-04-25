@@ -138,7 +138,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      @include yiq-contrasted(#5bce9c);
+      @include yiq-contrasted($muted-text-color);
     }
 
     &:first-child {
