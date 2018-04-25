@@ -8,6 +8,11 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% else %}
+  <noscript>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css" />
+  </noscript>
   <script async src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
   <script type="text/javascript">
     /* First CSS File */
