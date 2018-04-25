@@ -6,3 +6,4 @@
   Link: </cssrelpreload.js>; rel=preload; as=script
 /
   Link: </assets/css/main.css>; rel=preload; as=style
+  Link: </assets/js/main.js>; rel=preload; as=script
