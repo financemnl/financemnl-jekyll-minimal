@@ -12,16 +12,15 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<script>
-  {% include loadCSS.js %}
-</script>
-
 <style type="text/css">
   {% include critical.css %}
 </style>
   
 <link rel="preload" href="/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/assets/css/main.css"/></noscript>
+<script>
+    {% include loadCSS.js %}
+</script>
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
