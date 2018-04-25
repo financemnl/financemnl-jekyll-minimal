@@ -4,8 +4,8 @@
     "theme_color": "#98EC61",
     "background_color": "#FFF",
     "display": "fullscreen",
-    "Scope": "/",
-    "start_url": "/",
+    "Scope": "https://financemnl.com/",
+    "start_url": "https://financemnl.com/",
     "icons": [
       {
         "src": "https://financemnl.com/assets/images/android-chrome-192x192.png",
