@@ -21,9 +21,9 @@
   {{ criticalcss | scssify }}
 </style>
 
-<noscript>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-</noscript>
+<script>
+  {% include cssrelpreload.js %}
+</script>
 
 <!--[if lte IE 9]>
   <style>
