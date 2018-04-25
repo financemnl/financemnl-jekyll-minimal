@@ -4,4 +4,4 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: origin-when-cross-origin
 /
-  Link: </assets/css/main.css>; rel=preload; as=style
+  Link: <assets/css/main.css>; rel=preload; as=style
