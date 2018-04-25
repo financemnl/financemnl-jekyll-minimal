@@ -9,7 +9,7 @@
   {% endfor %}
 {% else %}
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"/>
-  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}" async></script>
 {% endif %}
 
 {% if site.search == true or page.layout == "search" %}
