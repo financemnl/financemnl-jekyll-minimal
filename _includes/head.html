@@ -11,6 +11,8 @@
 <script>
     {% include loadCSS.js %}
 </script>
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
 
 <style type="text/css">
   {% include critical.css %}
