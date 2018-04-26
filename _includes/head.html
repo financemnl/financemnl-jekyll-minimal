@@ -15,7 +15,10 @@
 </script>
 
 <style type="text/css">
-  {% include critical.css %}
+  {% capture criticalcss %}
+    {% include critical.scss %}
+  {% endcapture %}
+  {{ criticalcss | scssify }}
 </style>
 
 <noscript><link rel="stylesheet" href="https://financemnl.com/assets/css/main.css"></noscript>
