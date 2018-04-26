@@ -21,6 +21,7 @@
     "node": ">= 0.10.0"
   },
   "devDependencies": {
+    "criticalcss": "^2.1.0",
     "npm-run-all": "^1.7.0",
     "onchange": "^2.2.0",
     "uglify-js": "^2.6.1"

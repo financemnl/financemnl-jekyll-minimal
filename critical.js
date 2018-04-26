@@ -11,7 +11,7 @@ request(cssUrl).pipe(fs.createWriteStream(cssPath)).on('close', function() {
     if (err) {
       throw new Error(err);
     } else {
-      criticalcss.findCritical("https://financemnl.com/", { rules: JSON.parse(output) }, function(err, output) {
+      criticalcss.findCritical("https://financemnl.com/budgeting/creating-and-managing-your-budget/", { rules: JSON.parse(output) }, function(err, output) {
         if (err) {
           throw new Error(err);
         } else {
