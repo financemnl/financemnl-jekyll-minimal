@@ -33,9 +33,13 @@ fields:
   - type: file
     name: overlay_image
     label: Image
-    description: Header Image
+    description: Header Image 1280px max
     config:
       maxSize: '8'
+  - type: file
+    name: teaser
+    label: Teaser
+    description: Teaser Image 500px or less.
   hidden: false
   default: ''
   description: This is used for images such as OpenGraph Images (FB,Twitter), Header
