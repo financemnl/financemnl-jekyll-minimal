@@ -11,7 +11,6 @@ date: 2018-04-22 00:00:00 +0000
 excerpt: Budgeting should be the cornerstone of personal finance. This article should
   teach you how to setup a budget and how to manage it.
 header:
-  overlay_image: "/assets/images/uploads/header/pexels-photo-972540.jpeg"
   teaser: "/assets/images/uploads/teaser/calculator-calculation-insurance-finance-53621.jpeg"
 tags:
 - guide
