@@ -74,7 +74,7 @@ paginate: 5
 
 # Outputting
 timezone: Asia/Manila # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-permalink: /:categories/:title
+permalink: /:categories/:title/
 
 # Social Sharing
 twitter:
