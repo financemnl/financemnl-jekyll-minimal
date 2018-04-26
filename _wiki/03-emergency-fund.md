@@ -3,8 +3,14 @@ title: Saving for Emergency Fund
 permalink: "/wiki/emergency-fund/"
 excerpt: Saving up for an emergency fund - This money is meant to cover unexpected
   expenses such as loss of work, car repairs, etc.
+tags:
+  - emergency
+  - emergency fund
+  - rainy day fund
+  - security
 last_modified_at: 2018-04-19 19:59:26 +0000
 toc: true
+related: true
 header:
   overlay_image: "/assets/images/uploads/header/pexels-photo-263356.jpeg"
 date: 2018-04-20 15:50:35 +0000

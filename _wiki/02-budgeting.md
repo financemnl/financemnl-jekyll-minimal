@@ -6,9 +6,12 @@ last_modified_at: 2018-04-19 19:59:26 +0000
 toc: true
 header:
   overlay_image: "/assets/images/uploads/header/pexels-photo-532557.jpeg"
+tags:
+  - budgeting
 date: 2018-04-20 15:50:35 +0000
 layout: single
 read_time: false
+related: true
 author_profile: false
 share: false
 comments: false

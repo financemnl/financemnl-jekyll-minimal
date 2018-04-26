@@ -4,6 +4,7 @@ permalink: "/wiki/pay-high-interest-debt/"
 excerpt: Investing to make your money work for you.
 last_modified_at: 2018-04-19 19:59:26 +0000
 toc: true
+related: true
 header:
   overlay_image: "/assets/images/uploads/header/pexels-photo-185772.jpeg"
 date: 2018-04-20 15:50:35 +0000

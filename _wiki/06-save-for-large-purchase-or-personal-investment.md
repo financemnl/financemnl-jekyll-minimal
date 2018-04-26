@@ -3,6 +3,7 @@ title: Save For Large Purchase or Personal Investment
 permalink: "/wiki/save-for-large-purchases/"
 last_modified_at: 2018-04-19 19:59:26 +0000
 toc: true
+related: true
 header:
   overlay_image: "/assets/images/uploads/header/pexels-photo-982102.jpeg"
   show_overlay_excerpt: false
