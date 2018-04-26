@@ -265,30 +265,8 @@ plugins:
   - jekyll-feed
   - jekyll-algolia
   - jekyll-archives
-  - jekyll-pwa-plugin
-
-# PWA
-pwa:
-  sw_filename: service-worker.js # Required
-  dest_js_directory: assets/js # Required
-  cache_name: financemnl-cache # Optional
-  precache_recent_posts_num: 3 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
