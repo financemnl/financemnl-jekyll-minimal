@@ -8,6 +8,7 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="preload" href="/assets/css/main.scss" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" as="font">
 <script>
     {% include loadCSS.js %}
@@ -16,6 +17,8 @@
 <style type="text/css">
   {% include critical.css %}
 </style>
+
+<noscript><link rel="stylesheet" href="/assets/css/main.scss"></noscript>
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
