@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<!-- saved from url=(0067)https://mackeycreativelab.com/wp-content/uploads/2014/09/index.html -->
-<html class="gr__mackeycreativelab_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width">
-<title>You are Offline</title>
-<meta name="description" content="Performing maintenance...">
-<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+---
+title: You are Offline
+sitemap: false
+permalink: "/offline/"
+---
     
 <style type="text/css">
     /* Reset */
@@ -61,14 +59,11 @@
       a { color: #dc8100; text-decoration: none; }
       a:hover { color: #333; text-decoration: none; }
     </style>
-</head>
 <body data-gr-c-s-loaded="true">
 <div id="article">
 <h1>You are offline.</h1>
 <div>
-<!-- <p>We apologize for the inconvenience, but we're performing some maintenance. You can still contact us at <a href="mailto:">email@domain.com</a>. We'll be back up soon!</p> -->
 <p>— FinanceMNL </p>
 </div>
 </div>
-<script data-cfasync="false" src="./Performing Maintenance_files/email-decode.min.js"></script>
-</body></html>
+</body>

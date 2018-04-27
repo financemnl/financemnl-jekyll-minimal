@@ -224,6 +224,7 @@ kramdown:
 include:
   - .htaccess
   - _pages
+  - offline.html
   - _headers
   - _redirects
 exclude:
