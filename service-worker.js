@@ -7,7 +7,7 @@ var urlsToCache = [
   {% for page in site.html_pages %}
     '{{ page.url }}',
   {% endfor %}
-  
+
   {% for post in site.posts %}
     '{{ post.url }}',
   {% endfor %}
@@ -20,7 +20,7 @@ var urlsToCache = [
   "/index.html"
 ];
 // Cache name: adjust version number to invalidate service worker cachce.
-var CACHE_NAME = 'james-ives-cache-v2';
+var CACHE_NAME = 'james-ives-cache-v3';
 
 // Cache assets
 {% for asset in site.asset %}
