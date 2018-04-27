@@ -2,6 +2,13 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+a{
+  &:visited {
+      color: $link-color-visited;
+    }
+}
+  
+
 #main {
   @include clearfix;
   margin-left: auto;

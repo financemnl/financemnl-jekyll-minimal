@@ -11,8 +11,6 @@
 /* Core CSS */
 @import "minimal-mistakes/reset";
 @import "minimal-mistakes/base";
-@import "minimal-mistakes/forms";
-@import "minimal-mistakes/tables";
 @import "minimal-mistakes/animations";
 
 /* Utility classes */
@@ -22,9 +20,6 @@
 @import "minimal-mistakes/masthead";
 @import "minimal-mistakes/navigation";
 @import "minimal-mistakes/search";
-@import "minimal-mistakes/syntax";
-
-/* Layout specific */
-@import "minimal-mistakes/page";
-@import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
+
+@import "minimal-mistakes/archive";
