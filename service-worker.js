@@ -4,13 +4,12 @@ layout: null
 
 var urlsToCache = [
   // Cache posts
-  {% for post in site.posts %}
-    urlsToCache.push("{{ post.url }}")
-  {% endfor %}
-
-  // Cache pages
   {% for page in site.html_pages %}
-    urlsToCache.push("{{ page.url }}")
+    '{{ page.url }}',
+  {% endfor %}
+  
+  {% for post in site.posts %}
+    '{{ post.url }}',
   {% endfor %}
 
   "/assets/css/main.css",
