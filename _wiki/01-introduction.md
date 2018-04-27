@@ -3,7 +3,7 @@ title: Introduction
 excerpt: How to Handle Your Peso
 permalink: "/wiki/introduction/"
 header:
-  overlay_image: "https://res.cloudinary.com/financemnl/image/upload/v1524808231/Header%20Images/pexels-photo-845242.jpg"
+  overlay_image: "://res.cloudinary.com/financemnl/image/upload/v1524808231/Header%20Images/pexels-photo-845242.jpg"
 toc: false
 date: 2018-04-20 15:50:35 +0000
 comments: false
