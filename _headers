@@ -7,5 +7,3 @@
   Link: <assets/js/loadCSS.js>; rel=preload; as=script
   Link: <assets/css/critical.css>; rel=preload; as=style
   Link: <assets/js/main.min.js>; rel=preload; as=script
-  Link: <assets/images/header.png>; rel=preload; as=image
-  Link: <assets/images/avatar.png>; rel=preload; as=image
