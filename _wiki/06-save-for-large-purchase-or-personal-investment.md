@@ -5,7 +5,7 @@ last_modified_at: 2018-04-19 19:59:26 +0000
 toc: true
 related: true
 header:
-  overlay_image: "://res.cloudinary.com/financemnl/image/upload/v1524808231/Header%20Images/pexels-photo-982102.jpg"
+  overlay_image: "https://res.cloudinary.com/financemnl/image/upload/v1524808231/Header%20Images/pexels-photo-982102.jpg"
   show_overlay_excerpt: false
 date: 2018-04-20 15:50:35 +0000
 ---
