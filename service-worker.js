@@ -3,6 +3,9 @@ layout: null
 ---
 
 var urlsToCache = [];
+// Cache name: adjust version number to invalidate service worker cachce.
+var CACHE_NAME = 'james-ives-cache-v2';
+
 // Cache assets
 {% for asset in site.static_files %}
     {% if asset.path contains '://res.cloudinary.com' or asset.extname == '.css' or asset.extname == '.js' %}
@@ -19,22 +22,6 @@ var urlsToCache = [];
 {% for page in site.html_pages %}
   urlsToCache.push("{{ page.url }}")
 {% endfor %}
-
-var CACHE_NAME = 'james-ives-cache-v1';
-
-self.addEventListener('install', function(event) {
-  // Perform install steps
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
-  );
-});
-
-// Cache name: adjust version number to invalidate service worker cachce.
-var CACHE_NAME = 'james-ives-cache-v2';
 
 self.addEventListener('install', function(event) {
   // Perform install steps
