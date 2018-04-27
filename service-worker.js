@@ -1,4 +1,5 @@
 ---
+layout: null
 ---
 
 var urlsToCache = [];
