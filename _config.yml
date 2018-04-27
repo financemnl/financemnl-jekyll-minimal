@@ -5,12 +5,12 @@ locale                   : "en-US"
 title                    : "FinanceMNL"
 title_separator          : "·"
 name                     : "FinanceMNL"
-logo                     : "/assets/images/header.png"
+logo                     : "https://res.cloudinary.com/financemnl/image/upload/v1524808021/header.png"
 description              : "FinanceMNL is an independent personal finance site providing free advice for young adults wanting to make informed decisions about where their money goes."
 url                      : "https://financemnl.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/og.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "https://res.cloudinary.com/financemnl/image/upload/v1524808021/og.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 180
 comments:
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "FinanceMNL"
-  avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://res.cloudinary.com/financemnl/image/upload/v1524808020/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A Filipino Millennial's Approach on Personal Finance."
   location         :
   email            :
@@ -266,7 +266,7 @@ plugins:
   - jekyll-algolia
   - jekyll-archives
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# # Sass/SCSS
+# sass:
+#   sass_dir: _sass
+#   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
