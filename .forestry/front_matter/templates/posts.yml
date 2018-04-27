@@ -30,16 +30,14 @@ fields:
   label: Images
   type: field_group
   fields:
-  - type: file
-    name: overlay_image
-    label: Image
-    description: Header Image 1280px max
-    config:
-      maxSize: '8'
-  - type: file
+  - type: text
+    name: header
+    label: Image Header
+    description: Upload the file to Cloudinary then insert url here. 1280px
+  - type: text
     name: teaser
-    label: Teaser
-    description: Teaser Image 500px or less.
+    label: Teaser Image
+    description: Upload the file to Cloudinary then insert url here. 500px
   hidden: false
   default: ''
   description: This is used for images such as OpenGraph Images (FB,Twitter), Header
