@@ -1,7 +1,7 @@
 {
     "name": "FinanceMNL | Personal Finance for Filipinos",
     "short_name": "FinanceMNL",
-    "theme_color": "#98EC61",
+    "theme_color": "#7bd9a0",
     "background_color": "#FFF",
     "display": "fullscreen",
     "Scope": "https://financemnl.com/",
