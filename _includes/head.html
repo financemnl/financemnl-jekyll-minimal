@@ -26,6 +26,10 @@
   {{ criticalcss | scssify }}
 </style> -->
 
+<style type="text/css">
+    {% include critical.css %}
+</style>
+
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     {% if script contains "://" %}
