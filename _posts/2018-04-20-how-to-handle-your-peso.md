@@ -12,7 +12,7 @@ excerpt_separator: "<!--more-->"
 date: 2018-04-20 00:00:00 +0000
 comments: false
 header:
-  teaser: "/assets/images/uploads/teaser/money-card-business-credit-card-50987.jpeg"
+  teaser: "https://res.cloudinary.com/financemnl/image/upload/v1524809023/Teaser/money-card-business-credit-card-50987.jpg"
 ---
 
 # Welcome to FinanceMNL!

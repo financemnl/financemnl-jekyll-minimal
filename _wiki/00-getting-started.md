@@ -5,7 +5,7 @@ excerpt: FinanceMNL has everything you need to know about money, written by real
   And you’re not alone.
 permalink: "/wiki/getting-started/"
 header:
-  overlay_image: "/assets/images/uploads/header/yellow-wall.jpg"
+  overlay_image: "https://res.cloudinary.com/financemnl/image/upload/v1524808230/Header%20Images/yellow-wall.jpg"
   show_overlay_excerpt: false
 toc: false
 date: 2018-04-20 15:50:35 +0000

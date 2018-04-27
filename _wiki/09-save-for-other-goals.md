@@ -6,7 +6,7 @@ last_modified_at: 2018-04-19 19:59:26 +0000
 toc: true
 related: true
 header:
-  overlay_image: "/assets/images/uploads/header/pexels-photo-386025.jpeg"
+  overlay_image: "https://res.cloudinary.com/financemnl/image/upload/v1524808252/Header%20Images/pexels-photo-386025.jpg"
 date: 2018-04-20 15:50:35 +0000
 ---
 ## Step 7: Save for other goals
