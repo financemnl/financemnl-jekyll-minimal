@@ -1,7 +1,7 @@
 ---
-upload_path: "/assets/images/uploads/header"
-frontmatter_file_url_template: "/assets/images/uploads/header"
-body_file_url_template: "/assets/images/uploads/body/:year"
+upload_path: https://api.cloudinary.com/v1_1/financemnl/image/upload
+frontmatter_file_url_template: ''
+body_file_url_template: https://api.cloudinary.com/v1_1/financemnl/image/upload
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin/"
