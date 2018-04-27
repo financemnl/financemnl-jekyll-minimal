@@ -15,21 +15,10 @@ var urlsToCache = [
   "/assets/css/main.css",
   "/assets/js/main.min.css",
   "/assets/css/critical.css",
-  "/assets/js/loadCSS.js",
-  "/about/",
-  "/index.html"
+  "/assets/js/loadCSS.js"
 ];
 // Cache name: adjust version number to invalidate service worker cachce.
-var CACHE_NAME = 'james-ives-cache-v3';
-
-// Cache assets
-{% for asset in site.asset %}
-    {% if asset.path contains '://res.cloudinary.com' or asset.extname == '.css' or asset.extname == '.js' %}
-    urlsToCache.push("{{ file.path }}")
-    {% endif %}
-{% endfor %}
-
-
+var CACHE_NAME = 'financemnl-v3';
 
 self.addEventListener('install', function(event) {
   // Perform install steps
