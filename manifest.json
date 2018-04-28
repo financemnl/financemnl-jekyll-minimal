@@ -3,7 +3,7 @@
     "short_name": "FinanceMNL",
     "theme_color": "#7bd9a0",
     "background_color": "#FFF",
-    "display": "fullscreen",
+    "display": "standalone",
     "Scope": "https://financemnl.com/",
     "start_url": "https://financemnl.com/",
     "icons": [
