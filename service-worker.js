@@ -1,9 +1,9 @@
 ---
 layout: null
 ---
-
-var urlsToCache = [
-  // Cache posts
+// Cache name: adjust version number to invalidate service worker cachce.
+const CACHE_NAME = 'financemnl-v3';
+const urlsToCache = [
   {% for page in site.html_pages %}
     '{{ page.url }}',
   {% endfor %}
@@ -13,12 +13,11 @@ var urlsToCache = [
   {% endfor %}
 
   "/assets/css/main.css",
-  "/assets/js/main.min.css",
+  "/assets/js/main.min.js",
   "/assets/css/critical.css",
   "/assets/js/loadCSS.js"
 ];
-// Cache name: adjust version number to invalidate service worker cachce.
-var CACHE_NAME = 'financemnl-v3';
+
 
 self.addEventListener('install', function(event) {
   // Perform install steps

@@ -8,16 +8,5 @@
 <meta name="application-name" content="FinanceMNL">
 <meta name="msapplication-TileColor" content="#00a300">
 <meta name="msapplication-config" content="/assets/images/browserconfig.xml?v=zXrKLKy8G2">
-<meta name="theme-color" content="#ffffff">
 <link rel="manifest" href="manifest.json" />
-<!-- Service Worker -->
-<script type="text/javascript">
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/service-worker.js").then(function(registration) {
-        console.log("Service Worker registration successful with scope: ", registration.scope);
-      }).catch(function(err) {
-        console.log("Service Worker registration failed: ", err);
-      });
-    }
-  </script>
 <!-- end custom head snippets -->
