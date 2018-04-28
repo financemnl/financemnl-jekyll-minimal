@@ -2,7 +2,7 @@
 layout: null
 ---
 // Cache name: adjust version number to invalidate service worker cachce.
-var CACHE_NAME = 'financemnl-v5';
+var CACHE_NAME = 'financemnl-v6';
 var urlsToCache = [
   {% for page in site.html_pages %}
     '{{ page.url }}',
@@ -37,7 +37,7 @@ self.addEventListener('fetch', function(event) {
         cache.put(event.request, response.clone());
         return response;
       });
-    })
+    });
   );
 });
 
