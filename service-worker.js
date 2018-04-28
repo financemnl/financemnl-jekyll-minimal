@@ -2,8 +2,8 @@
 layout: null
 ---
 // Cache name: adjust version number to invalidate service worker cachce.
-const CACHE_NAME = 'financemnl-v4';
-const urlsToCache = [
+var CACHE_NAME = 'financemnl-v5';
+var urlsToCache = [
   {% for page in site.html_pages %}
     '{{ page.url }}',
   {% endfor %}
