@@ -1,34 +1,32 @@
-/* Variables */
-@import "minimal-mistakes/variables";
+/* ==========================================================================
+   PRELOAD CSS
+   ========================================================================== */
+   
+@import "minimal-mistakes/skins/mint";
 
-/* Mixins and functions */
+.page__footer {
+    color: #fff !important; // override
+  }
+  
+.page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
+}
+
+@import "minimal-mistakes/variables";
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
-@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
-@import "minimal-mistakes/vendor/susy/susy";
 @import "minimal-mistakes/mixins";
+@import "minimal-mistakes/vendor/susy/susy";
 
-/* Core CSS */
-@import "minimal-mistakes/reset";
-@import "minimal-mistakes/base";
-@import "minimal-mistakes/forms";
 @import "minimal-mistakes/tables";
-@import "minimal-mistakes/animations";
-
-/* Components */
 @import "minimal-mistakes/buttons";
 @import "minimal-mistakes/notices";
-@import "minimal-mistakes/masthead";
-@import "minimal-mistakes/navigation";
+
 @import "minimal-mistakes/footer";
 @import "minimal-mistakes/search";
 @import "minimal-mistakes/syntax";
 
-/* Utility classes */
-@import "minimal-mistakes/utilities";
+@import "minimal-mistakes/forms";
 
-/* Layout specific */
-@import "minimal-mistakes/page";
-@import "minimal-mistakes/archive";
-@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup";
 @import "minimal-mistakes/print";

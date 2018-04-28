@@ -9,18 +9,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
-    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://financemnl.com/assets/css/main.css">
-<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
-<noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-</noscript>
+<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ '/assets/css/main.css' | relative_url }}">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
+<script>
+  {% include loadCSS.js %}
+</script>
 
 <style type="text/css">
-    {% include critical.css %}
+  {% capture criticalcss %}
+    {% include critical.scss %}
+  {% endcapture %}
+  {{ criticalcss | scssify }}
 </style>
 
 {% if site.head_scripts %}
